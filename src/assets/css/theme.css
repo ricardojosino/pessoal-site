@@ -294,16 +294,16 @@
 }
 
 .theme-section {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 @media (min-width: 768px) {
     .theme-section {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         padding-left: 40px;
         padding-right: 40px;
     }
@@ -311,8 +311,8 @@
 
 @media (min-width: 1200px) {
     .theme-section {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         padding-left: 0;
         padding-right: 0;
     }
