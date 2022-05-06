@@ -90,8 +90,11 @@
                 <!-- Foto -->
                 <div class="relative w-full order-1 lg:w-[40%] lg:order-2">
                     <div class="relative lg:absolute lg:top-0 lg:left-0 lg:z-10">
-                        <img class="block lg:hidden" src="assets/img/profile-mobile.webp" width="250" height="250" alt="Ricardo Josino">
-                        <img class="hidden lg:block" src="assets/img/profile-desktop.webp" width="400" height="580" alt="Ricardo Josino">
+                        <picture title="Ricardo Josino">
+                            <source srcset="assets/img/profile-desktop.webp" width="400" height="580" media="(min-width: 1024px)">
+                            <img src="assets/img/profile-mobile.webp" width="250" height="250" alt="Ricardo Josino">
+                        </picture>
+
                     </div>
                 </div>
 
